@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- doccure/doctor-dashboard  30 Nov 2019 04:12:03 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Courses - Mentor Bootstrap Template</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="/img/favicon.png" rel="icon">
+    <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Mentor - v2.1.0
+  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<body>
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo mr-auto"><a href="/">Mentor</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index" class="logo mr-auto"><img src="/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li class="active"><a href="/courses">Courses</a></li>
+                    <li><a href="/trainers">Trainers</a></li>
+                    <li><a href="/events">Events</a></li>
+                    <li><a href="/pricing">Pricing</a></li>
+                    <li class="drop-down"><a href="">Drop Down</a>
+                        <ul>
+                            <li><a href="#">Drop Down 1</a></li>
+                            <li class="drop-down"><a href="#">Deep Drop Down</a>
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down 2</a></li>
+                            <li><a href="#">Drop Down 3</a></li>
+                            <li><a href="#">Drop Down 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <!-- .nav-menu -->
+
+            <a href="courses" class="get-started-btn">Get Started</a>
+
+        </div>
+    </header>
+
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+
+        <!-- Header -->
+      
+        <!-- /Header -->
+
+        <!-- Breadcrumb -->
+        <div class="breadcrumb-bar"  style="padding: 10px 0px !important;margin-top: 20px;">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-12" style="margin-bottom: 15px;">
+                        <nav aria-label="breadcrumb" class="page-breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/index-2">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                            </ol>
+                        </nav>
+                        <h2 class="breadcrumb-title">Dashboard</h2>
+                    </div>
+                   
+               
+                </div>
+            </div>
+        </div>
+        <!-- /Breadcrumb -->
+
+        <!-- Page Content -->
+        <div class="content">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar ">
+
+                        <!-- Profile Sidebar -->
+                        <div class="profile-sidebar">
+                            <div class="widget-profile pro-widget-content">
+                                <div class="profile-info-widget">
+                                    <a href="#" class="booking-doc-img" style="width: 100% !important;background-color: transparent;">
+                                        <img src="<%=locals.user.avatar%>" onerror='this.src="//img/profile.png"' alt="User Image">
+                                    </a>
+                                    <div class="profile-det-info">
+                                        <h3>
+                                            <%=locals.user.name%>
+                                        </h3>
+
+                                        <!-- <h4 style="font-size: 0.9rem;"> <%=locals.user.department%></h4> -->
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard-widget lscreen">
+                                <nav class="dashboard-menu">
+                                    <ul>
+                                        <li class="active">
+                                            <a href="/doctor-dashboard">
+                                                <i class="fas fa-columns"></i>
+                                                <span>Dashboard</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/appointments">
+                                                <i class="fas fa-calendar-check"></i>
+                                                <span>Appointments</span>
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- /Profile Sidebar -->
+
+                    </div>
+
+                    <div class="col-md-7 col-lg-8 col-xl-9">
+
+                      
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4 class="mb-4">Patient Appoinment</h4>
+                                
+                              
+                                <div class="appointment-tab">
+
+                                    <!-- Appointment Tab -->
+                                    <ul class="nav nav-tabs nav-tabs-solid nav-tabs-rounded">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#upcoming-appointments" data-toggle="tab">Upcoming</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#today-appointments" data-toggle="tab">Today</a>
+                                        </li>
+                                    </ul>
+
+                                    <!-- /Appointment Tab -->
+                                   
+                             <div class="tab-content">
+
+                                       
+                                        <div class="tab-pane show active" id="upcoming-appointments">
+                                            <div class="card card-table mb-0">
+                                                <div class="card-body">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-hover table-center mb-0 stable">
+                                                            <thead class="sthead">
+                                                                <tr class="str">
+                                                                    <th class="sth">Name</th>
+                                                                    <th class="sth">Email</th>
+                                                                    <th class="sth">Phone</th>
+                                                                    <th class="sth">Subject</th>
+                                                                    <th class="text-center sth">Message</th>
+                                                                   
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody class="stbody">
+                                                           
+                                                                <%for(u of users){%>
+                                                                   
+                                                                <tr class="str" style="padding-top: 15px;">
+                                                                    <td class="std2">
+                                                                        <h2 class="table-avatar">
+                                                                            
+                                                                            <a href="" class="avatar avatar-sm mr-2">
+                                                                                
+                                                                                <img class="avatar-img rounded-circle" style="height: 40px;width:40px;" src="/img/about.jpg" onerror="this.src='/img/profile.png'" alt="User Image">
+                                                                               </a>
+                                                                              
+
+                                                                            <a href="" style="font-size: 1rem !important;"><%=u.name%> </a>
+                                                                        </h2>
+                                                                    </td>
+                                                                   
+                                                                    <td class="std2"><%=u.email%></td>
+                                                                    <td class="std2"><%=u.phone%></td>
+                                                                  
+                                                                   
+                                                                    <td class="std2"><%=u.subject%></td>
+                                                                    
+                                                                    <td class=" std2"><%=u.description%></td>
+                                                                    <td class=" std2"><%=u.createdAt.toLocaleString()%></td>
+
+                                                                    
+                                                                        
+                                                                          
+
+                                                                           
+                                                                     
+                                                                </tr>
+                                                                <%}%>
+                                                              
+                                                            </tbody>
+                                                        </table>
+                                                     
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      
+
+                                    </div> 
+                           
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /Page Content -->
+
+        <!-- Footer -->
+        <footer id="footer">
+
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+    
+                        <div class="col-lg-3 col-md-6 footer-contact">
+                            <h3>Mentor</h3>
+                            <p>
+                                A108 Adam Street <br> New York, NY 535022<br> United States <br><br>
+                                <strong>Phone:</strong> +1 5589 55488 55<br>
+                                <strong>Email:</strong> info@example.com<br>
+                            </p>
+                        </div>
+    
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Useful Links</h4>
+                            <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Our Services</h4>
+                            <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 footer-newsletter">
+                            <h4>Join Our Newsletter</h4>
+                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                            <form action="" method="post">
+                                <input type="email" name="email"><input type="submit" value="Subscribe">
+                            </form>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container d-md-flex py-4">
+    
+                <div class="mr-md-auto text-center text-md-left">
+                    <div class="copyright">
+                        &copy; Copyright <strong><span>Mentor</span></strong>. All Rights Reserved
+                    </div>
+                    <div class="credits">
+                        <!-- All the links in the footer should remain intact. -->
+                        <!-- You can delete the links only if you purchased the pro version. -->
+                        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
+                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    </div>
+                </div>
+                <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+    
+        <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+        <div id="preloader"></div>
+    
+        <!-- Vendor JS Files -->
+        <script src="/vendor/jquery/jquery.min.js"></script>
+        <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="/vendor/jquery.easing/jquery.easing.min.js"></script>
+        <script src="/vendor/php-email-form/validate.js"></script>
+        <script src="/vendor/waypoints/jquery.waypoints.min.js"></script>
+        <script src="/vendor/counterup/counterup.min.js"></script>
+        <script src="/vendor/owl.carousel/owl.carousel.min.js"></script>
+        <script src="/vendor/aos/aos.js"></script>
+    
+        <!-- Template Main JS File -->
+        <script src="/js/main.js"></script>
+
+</body>
+
+<!-- doccure/doctor-dashboard  30 Nov 2019 04:12:09 GMT -->
+
+</html>
